@@ -1,17 +1,23 @@
+/* General Content Area Properties - Start*/
 .content{
     width: 90%;
-    margin: auto;
+    margin: auto; /*Center the element on the page*/
 }
+/* General Content Area Properties - End*/
+
+/* Search Bar Properties  - Start */
 .search-bar{
     background-color: #eeeeee;
     padding-bottom: 18px;
 }
+/* Search Bar Properties  - End */
 
+/* Footer Properties- Start */
 .footer-left{
     padding: 14px 1px;
     background-color: #7ee5da;
     width: 37%;
-    float: left;
+    float: left;    /*Element is left justified*/
     margin-right: 2px;
 }
 .footer-middle{
@@ -19,16 +25,18 @@
     background-color: #70ccc2;
     width: 22%;
     font-size: 13px;
-    float: left;
+    float: left;    /*Element is left justified*/
     margin-right: 2px;
 }
 .footer-right{
     padding: 2px 0px;
     background-color: #62b3aa;
     width: 40%;
-    float: left;
+    float: left;    /*Element is left justified*/
     font-size: 13px;
 }
+/* Footer Properties- Start */
+
 .align-items-center{
-    text-align: center;
+    text-align: center; /*Places text or image in the center*/
 }
